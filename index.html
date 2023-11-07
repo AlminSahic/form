@@ -4,54 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    
-        <div class="box">
+<body> 
+    <div class="pic">
+        <img src="./assets/images/pic2.png" alt="pic" width="400">
+    </div>
+     <div class="box">
             <h1>Let's work together</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab ducimus illo illum? Dicta autem, facere expedita omnis reprehenderit voluptates eveniet mollitia nobis neque eum odit ducimus ipsam minus provident!</p>
-        </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. illo illum? Dicta autem, facere expedita omnis reprehenderit voluptates eveniet mollitia nobis neque eum odit ducimus ipsam minus provident!</p>
+        </div><br>
 
     <form method="post" action="https://www.youtube.com/">
  <div class="box1">
-   <label for="fname">First name</label>
+    <label for="fname">First name</label><br>
    <input type="text" id="fname" name="fname" required>
-    </div>
-   <div class="box2"> 
-    <label for="lname">Last name</label>
-    <input type="text" id="lname" name="lname" required><br>
+</div>
+<div class="box2">
+    <label for="lname">Last name</label><br>
+    <input type="text" id="lname" name="lname" required>
+    
 </div>
    <div class="box3">
     <label for="email">Email</label><br>
    <input type="email" id="email" name="email"><br>
    </div>
+
    <div class="box4">
     <label for="company">Company</label><br>
      <input type="text" name="company" id="company">
    </div>
+
    <div class="box5"> 
     <label for="number">Phone</label><br>
    <input type="number" id="number" name="number"><br>
    </div>
    <div class="box6">
-    <label for="com">How can we help you</label><br>
-    <textarea name="com" id="com"  rows="3" maxlength="500"></textarea><br>
-   </div>
-   <div class="box7">
-     <label for="">Expected salary</label><br>
-    <label for="r1">Less than $25K</label>
-    <input type="radio" name="r1" id="r1"><br>
-    <label for="r2">$25K - $50K</label>
-    <input type="radio" name="r2" id="r2"><br>
-    <label for="r3">$50K - $100K</label>
-    <input type="radio" name="r3" id="r3"><br>
-    <label for="r4">$100K+</label>
-    <input type="radio" name="r4" id="r4"><br>
 
+    <label for="com"> How can we help you?</label><br>
+    <textarea name="com" id="com"  rows="4" maxlength="500"></textarea><br>
    </div>
-    <div>
-        <button type="submit">Send message</button>
-    </div>
+
+   <div class="box7">
+     <label for="cc"><b>Expected salary</b> </label><br>
+     <label for="r1">Less than $25K</label>
+     <input type="radio" name="r1" id="r1" value="Less than $25K"><br>
+     <label for="r2">$25K - $50K</label>
+    <input type="radio" name="r2" id="r2" value="$25K - $50K" ><br>
+    <label for="r3">$50K - $100K</label>
+    <input type="radio" name="r3" id="r3" value="$50K - $100K"><br>
+    <label for="r4">$100K+</label>
+    <input type="radio" name="r4" id="r4" value="$100K"><br>
+    
+    
+   </div>
+
+    
+     <button class="B">Send message</button>
+   
    
 
     </form>
